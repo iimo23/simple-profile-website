@@ -1,7 +1,7 @@
 # simple-profile-website
 # My Project
 
-![web page]("C:\Users\MO\Pictures\Screenshots\web.png")
+![web page]("arsenal.jpg")
 
 ## Description
 This is a brief description of my awesome project.
