@@ -1,0 +1,113 @@
+<!--Mohammed Alwan  441052070-->
+<!DOCTYPE html>
+<html>
+<head>
+   <title> my skills</title>
+   
+   <style>
+    .skills{
+    padding: 110px 85px 0;
+    background-size: cover;
+    background-color: rgb(217, 228, 228);
+    
+}
+
+
+.skills {
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.skills  .item{
+    background-color: #deebee;
+    width: 25%;
+    border-radius: 10px;
+    padding: 32px;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills .item:hover{
+    border-color: #5e3bee;
+}
+
+.skills .item p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #630406;
+}
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+}
+nav .logo img
+{
+    width: 70px;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;}
+    a{
+    text-decoration: none;
+    color: #1c1e53;
+    transition: color 0.3s ease;
+}
+a:hover{
+    color: #5e3bee ;}
+
+li{
+    list-style: none;}
+   </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="assets/download.jpg">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html" >Skills</a></li>
+            <li><a href="Resume.html" >Resume</a></li>
+            <li><a href="about.html" >About Me</a></li>
+            <li><a href="Contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+
+        <div class="skills">
+            <div class="item">
+                <div class="icon"><img src="assets/html.png" alt=""></div>
+                <h4>HTML</h4>
+                <p>
+                    HTML (Hypertext Markup Language) is the standard language for creating and structuring web content.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><img src="assets/css.png" height="250" width="250"></div>
+                <h4>CSS</h4>
+                <p>
+                    CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a document written in HTML or XML, including colors, layouts, and fonts, enhancing the visual appeal of web pages.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><img src="assets/js.png" height="250" width="250"></div>
+                <h4>JS</h4>
+                <p>
+                    JavaScript (JS) is a versatile programming language commonly used in web development to add dynamic behavior and interactivity to websites, enabling features like form validation, animations, and responsive user interfaces.
+                </p>
+            </div>
+            
+        </div>
+   
+</body>
+</html>

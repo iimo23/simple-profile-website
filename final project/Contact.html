@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--Mohammed Alwan  441052070-->
+<html>
+<head>
+    <title>Contact </title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 15px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #1c1e53;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #5e3bee ;}
+
+li{
+    list-style: none;}
+
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo img
+{
+    width: 70px;
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    gap: 40px;}
+    </style>
+</head>
+    <body>
+        <nav>
+        <div class="logo">
+            <img src="assets/download.jpg">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html" >Skills</a></li>
+            <li><a href="Resume.html" >Resume</a></li>
+            <li><a href="about.html" >About Me</a></li>
+            <li><a href="Contact.html" >Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+    </header>
+    
+    <section>
+        <article>
+            <h2>Contact Information</h2>
+            <ul>
+                <li><strong>Email:</strong> mohammedafc23@gmail.com</li>
+                <li><strong>Phone:</strong> 0552544809</li>
+            </ul>
+        </article>
+    
+        <article>
+            <h2>Send a Message</h2>
+            <form  method="post" id="form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit" onclick="submitForm()">Send Message</button>
+            </form>
+        </article>
+    </section>
+    
+    
+    <script src="main.js"></script>
+    </body>
+
+</html>
